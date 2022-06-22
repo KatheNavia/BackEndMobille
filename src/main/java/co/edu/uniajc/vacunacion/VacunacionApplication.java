@@ -24,6 +24,8 @@ public class VacunacionApplication {
 		private final String[] AUTH_WHITELIST = {
 				// -- Login
 				"/login/**",
+				// -- Create
+				"/users/save",
 				// -- Swagger UI v3 (OpenAPI)
 				"/v3/api-docs/**",
 				"/swagger-ui/**"
