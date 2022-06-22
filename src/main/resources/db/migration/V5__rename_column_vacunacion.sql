@@ -1,0 +1,1 @@
+alter table vacunacion rename column lote to va_lote;
