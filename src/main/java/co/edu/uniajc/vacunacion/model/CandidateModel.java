@@ -20,12 +20,12 @@ public class CandidateModel {
     @Column(name = "ca_id_candidate")
     private Long id;
 
-    @Column(name = "us_name")
+    @Column(name = "ca_name")
     @Size(min = 1, max = 50)
     @NotNull
     private String name;
 
-    @Column(name = "us_lastname")
+    @Column(name = "ca_lastname")
     @Size(min = 1, max = 50)
     @NotNull
     private String lastname;
