@@ -46,6 +46,7 @@ public class UsersService {
             if (userModel.getPassword().equals(password)){
                 userDTO = new UserDTO();
 
+                userDTO.setId(userModel.getId());
                 userDTO.setToken(JWTToken.getToken(numberDocument));
                 userDTO.setNumberDocument(userModel.getNumberDocument());
                 userDTO.setName(userModel.getName());

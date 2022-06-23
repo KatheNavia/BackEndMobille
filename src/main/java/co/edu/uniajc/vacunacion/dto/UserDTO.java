@@ -9,6 +9,7 @@ import lombok.*;
 @NoArgsConstructor
 public class UserDTO {
 
+    private Long id;
     private String token;
     private String numberDocument;
     private String name;
